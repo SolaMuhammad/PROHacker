@@ -1,0 +1,161 @@
+body{
+   font: 15px/1.5 Arial, Helvetica, sans-serif;
+   padding:0;
+   margin:0;
+   background-color:#002448;
+}
+
+/*Global*/
+.container{
+  width:80%;
+  margin:auto; /**In order not to have everything to the very left*/
+  overflow:hidden;
+}
+header ul{
+  margin:0;
+  padding:0;
+}
+
+.button1{
+  height:38px;
+  background:#002448;
+  border:0;
+  padding-left:20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+.dark{
+  padding:15px;
+  background:#6b92ac;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+/**Header*/
+
+header{
+  background:#ffc8e6;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#002448 3px solid;
+}
+header a{
+  color:#ffffff;
+  text-decoration: none;
+  font-size:16px;
+}
+
+header li{
+   float:left;
+   display:inline;
+   padding:0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+
+header #branding img{
+   margin:0;
+   margin-bottom:10px;
+  float:left;
+   width:70px;
+   height:70px;
+}
+
+
+header #branding h1{
+ margin:0;
+}
+header nav{
+ float:right;
+ margin-top:10px;}
+
+header .highlight, header .current a{
+  color:#002448;
+  font-weight:bold;
+}
+header a:hover{
+ color:#cccccc;
+ font-weight:bold;
+}
+/**Showcase*/
+#showcase{
+width = device
+min-height:400px;
+background:url('https://cdn.pixabay.com/photo/2016/09/26/09/10/binary-1695478_960_720.jpg') +100px 0;
+text-aligh:center;
+color:#ffffff
+}
+
+#showcase h1{
+  margin:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+#showcase p{
+  font-size:20px;
+  
+}
+#searchCase{
+  padding:15px;
+  color:ffffff;
+  background:#ffc8e6;
+}
+#searchCase h1{
+ float:left;
+ color:ffffff;
+}
+#searchCase form{
+  float:right;
+  margin-top:15px;
+}
+#searchCase input[type="text"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+
+/*Boxes*/
+#boxes{
+  margin-top:20px;
+
+}
+
+#boxes .box{
+  width:50%;
+  padding:10px;
+  text-align:center
+  display: inline;
+  
+}
+
+#boxes .box img{
+  width:90px;
+display: inline;
+  
+}
+
+/**sidebar*/
+aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top:10px;
+}
+
+/**Main-col*/
+article#main-col{
+  float:left;
+  width:65%;
+  color:#ffffff;
+}
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color: #ffc8e6;
+  text-align: center;
+}
